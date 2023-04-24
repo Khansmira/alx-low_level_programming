@@ -10,13 +10,12 @@
 
 int main(void)
 {
-	char LWcase;
 
+	char Lcase;
 
-	for (LWcase = 'a'; LWcase <= 'z'; LWcase++)
-		putchar(LWcase);
-	putchar('\n');
-
+	for (Lcase = 'a'; Lcase <= 'z'; Lcase++)
+		putchar(Lcase);
+	putchar(Lcase);
 	return (0);
-}
 
+}
