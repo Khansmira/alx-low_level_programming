@@ -7,7 +7,7 @@
  *
  * prints lower and upper case alphabets
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (That is Success)
  */
 
 int main(void)
