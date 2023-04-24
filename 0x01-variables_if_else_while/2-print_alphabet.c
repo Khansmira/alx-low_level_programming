@@ -10,11 +10,11 @@
 
 int main(void)
 {
-	char Lcase;
+	char LWcase;
 
 
-	for (Lcase = 'a'; Lcase <= 'z'; Lcase++)
-		putchar(Lcase);
+	for (LWcase = 'a'; LWcase <= 'z'; LWcase++)
+		putchar(LWcase);
 	putchar('\n');
 
 	return (0);
