@@ -12,12 +12,12 @@
 
 int main(void)
 {
-	char LPcase;
+	char LU_case;
 
-	for (LPcase = 'a'; LPcase <= 'z'; LPcase++)
-		putchar(LPcase);
-	for (LPcase = 'A'; LPcase <= 'Z'; LPcase++)
-		putchar(LPcase);
+	for (LU_case = 'a'; LU_case <= 'z'; LU_case++)
+		putchar(LU_case);
+	for (LU_case = 'A'; LU_case <= 'Z'; LU_case++)
+		putchar(LU_case);
 	putchar('\n');
 
 	return (0);
