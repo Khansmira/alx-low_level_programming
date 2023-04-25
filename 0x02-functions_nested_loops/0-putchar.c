@@ -1,5 +1,5 @@
+#include "main.h"
 #include <string.h>
-#include "main.c"
 
 /**
  * main - Entry point
@@ -10,11 +10,11 @@
  */
 int main(void)
 {
-	char MIR[] = "_putchar";
-	int length = strlen(MIR), i;
+	char mir[] = "_putchar";
+	int length = strlen(mir), i;
 
 	for (i = 0; i < length; i++)
-		_putchar(MIR[i]);
+		_putchar(mir[i]);
 	_putchar('\n');
 
 	return (0);
