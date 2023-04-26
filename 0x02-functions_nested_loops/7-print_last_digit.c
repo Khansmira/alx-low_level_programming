@@ -9,7 +9,15 @@
  */
 int print_last_digit(int n)
 {
-	int mir = _abs(n % 10);
-		_putchar(mir + 48);
-	return (mir);
+	if (n >= 0 && n <= 9)
+	{
+		_putchar(n);
+		return (n);
+	}
+	else
+	{
+		n = _abs(n % 10);
+		_putchar(n + 48);
+		return (n);
+	}
 }
