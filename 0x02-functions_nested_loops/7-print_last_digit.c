@@ -9,7 +9,7 @@
  */
 int print_last_digit(int n)
 {
-	int mir = (n % 10);
+	int mir = _abs(n % 10);
 		_putchar(mir + 48);
 	return (mir);
 }
