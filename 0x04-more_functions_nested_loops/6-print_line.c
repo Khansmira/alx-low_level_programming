@@ -1,25 +1,25 @@
 #include "main.h"
 
 /**
- * print_line - prints a straight line
+ * print_line - prints a straight line using int number of dashes
  *
- * @n: number of times the character prints
+ * @n: number of dashes used to print the line
+ *
+ * Return: void
  */
 
 void print_line(int n)
 {
-	int i;
+	int i = 1;
 
-	if (n <= 0)
+	while (i <= n)
 	{
-		_putchar('\n');
-	}
-	else
-	{
-		for (i = 0; i < n; i++)
+		if (n <= 0)
 		{
-			_putchar('-');
+			_putchar('\n');
 		}
-		_putchar('\n');
+		_putchar('-');
+		i++;
 	}
+	_putchar('\n');
 }
