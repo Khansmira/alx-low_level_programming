@@ -7,13 +7,13 @@
  */
 void print_rev(char *s)
 {
-	int mir = 0;
+	int len = 0;
 
-	while (s[mir] != '\0')
-		mir++;
+	while (s[len] != '\0')
+		len++;
 
-	while (mir)
-		_putchar(s[--mir]);
+	while (len)
+		_putchar(s[--len]);
 
 	_putchar('\n');
 }
