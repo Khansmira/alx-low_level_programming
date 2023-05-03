@@ -9,13 +9,23 @@
  * @dest: A pointer to destination of string
  * @src: A pointer to source string to copy from
  *
- * Return: pointer to dest
+ * Return: pointer to dest if succesful
  */
+
 char *_strcpy(char *dest, char *src)
 {
-	char *c = dest;
+	int i, j;
 
-	while (*src)
-		*dest++ = *src++;
-	return (c);
+	i = 0;
+	while (src[i] != '\0')
+	{
+		i++;
+	}
+
+	for (j = 0; j <= i; j++)
+	{
+		dest[j] = src[j];
+	}
+
+	return (dest);
 }
