@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 /**
- * main - Entry function multiplies two numbers
+ * main - multiplies two numbers
  * @argc: Arguments counter
  * @argv: Arguments values
- * Return: Always 0 (Success)
+ * Return: 0 on succes and 1 otherwise
  */
 int main(int argc, char **argv)
 {
-	int a, b, result;
+	int i, j, mul;
 
 	if (argc != 3)
 	{
@@ -18,7 +18,10 @@ int main(int argc, char **argv)
 	}
 	else
 	{
-		printf("%d\n", (atoi(argv[1]) * atoi(argv[2])));
+		i = atoi(argv[1]);
+		j = atoi(argv[2]);
+		mul = i * j;
+		printf("%d\n", mul);
+		return (0);
 	}
-	return (0);
 }
