@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - function that concatenates two strings
+ * string_nconcat - main function that concatenates two strings
  * @s1: first string
  * @s2: second string
  * @n: number of bytes from s2
@@ -13,7 +13,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ptr;
-	unsigned int len1, len2, str, j  = 0;
+	unsigned int len1 = 0, len2 = 0, str = 0, j  = 0;
 
 	if (s1 == NULL)
 		s1 = "";
