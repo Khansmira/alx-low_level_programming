@@ -1,6 +1,5 @@
 #ifndef VARIADIC_FUNCTIONS_H
 #define VARIADIC_FUNCTIONS_H
-#define isEqual  ==
 
 #include <stdio.h>
 #include <stdlib.h>
