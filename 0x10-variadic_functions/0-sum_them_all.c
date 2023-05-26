@@ -10,16 +10,16 @@
 int sum_them_all(const unsigned int n, ...)
 {
 	unsigned int i;
-	int sum, j;
+	int sum = 0;
 
 	va_list my_args;
+
+	va_start(my_args, n);
 
 	if (n == 0)
 	{
 		return (0);
 	}
-	va_start(my_args, n);
-
 	for (i = 0; i < n; i++)
 	{
 		sum = sum + va_arg(my_args, int);
