@@ -6,7 +6,7 @@
  */
 void free_list(list_t *head)
 {
-	list_t *alpha_head = *head;
+	list_t *alpha_head = head;
 	list_t *beta_head;
 
 	while (alpha_head != NULL)
