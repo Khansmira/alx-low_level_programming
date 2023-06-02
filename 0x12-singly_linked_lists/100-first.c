@@ -1,9 +1,8 @@
-include "lists.h"
+#include "lists.h"
 
 /**
- * bm_func - printsan input  before before main function is executed
+ * bm_func - prints an input  before main function is executed
  */
-
 void bm_func(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
