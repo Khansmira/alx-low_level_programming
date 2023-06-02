@@ -18,7 +18,7 @@ list_t *add_node(list_t **head, const char *str)
 	{
 		return (NULL);
 	}
-	alpha_node = malloc(sizeof(list_t));
+	alpha_node = (list_t *) malloc(sizeof(list_t));
 	if (alpha_node == NULL)
 	{
 		return (NULL);
@@ -30,14 +30,15 @@ list_t *add_node(list_t **head, const char *str)
 		free(alpha_node);
 		return (NULL);
 	}
-	while (str[s] != '\0')
+	while (str[s])
 	{
 		s++;
 	}
-	alpha_node->str = copy;
+
 	alpha_node->len = s;
+	alpha_node->str = copy;
 	alpha_node->next = *head;
-	alpha_node = *head;
+	*head = alpha_node;
 
 	return (alpha_node);
 }
