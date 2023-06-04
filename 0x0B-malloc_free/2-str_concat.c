@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 
 /**
  * str_concat - concanates two strings
@@ -42,7 +42,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	for (j = 0; j < Ls2; j++)
 	{
-		s[i + j] = s2[j]
+		s[i + j] = s2[j];
 	}
 	s[i + j] = '\0';
 
