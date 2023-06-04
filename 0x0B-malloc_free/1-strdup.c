@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * _strdup - craetes string duplicate and returns pointer to
@@ -23,7 +24,7 @@ char *_strdup(char *str)
 		j++;
 	}
 
-	s = malloc((i + 1) * sizeof(char));
+	s = malloc((j + 1) * sizeof(char));
 	if (s == NULL)
 	{
 		return (NULL);
