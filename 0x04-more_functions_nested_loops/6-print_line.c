@@ -3,9 +3,9 @@
 /**
  * print_line - prints a straight line using int number of dashes
  *
- * @n: number of dashes used to print the line
+ * @n: number of dashes
  *
- * Return: void
+ * Return: output
  */
 
 void print_line(int n)
