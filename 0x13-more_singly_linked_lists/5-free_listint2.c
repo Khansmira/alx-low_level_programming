@@ -17,5 +17,5 @@ void free_listint2(listint_t **head)
 		free(alpha_node);
 		alpha_node = beta_node;
 	}
-	*head = NULL;
+	head = NULL;
 }
